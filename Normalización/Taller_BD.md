@@ -5,8 +5,9 @@
 * Se tiene una tabla única llamada PedidosNoNormalizados con la siguiente estructura:
 
 | PedidoID	| Cliente |	Teléfono	| Dirección	| Producto	| Cantidad |	Fecha |
-1	Juan Pérez	3001234567	Calle 123 #45-67	Televisor	1	2025-02-01
-1	Juan Pérez	3001234567	Calle 123 #45-67	Parlante	2	2025-02-01
-2	María González	3109876543	Carrera 89 #12-34	Computador	1	2025-02-03
+|-----------|---------|-----------|-----------|-----------|----------|--------|
+|1|	Juan Pérez | 3001234567	| Calle 123 #45-67	| Televisor	| 1 |	2025-02-01 |
+|1|	Juan Pérez | 3001234567	| Calle 123 #45-67	| Parlante	| 2	| 2025-02-01 |
+|2|	María González |	3109876543	| Carrera 89 #12-34 | Computador	| 1 |	2025-02-03 |
 
 2. 
