@@ -1,6 +1,7 @@
 # Taller
 
 1. Situación inicial: Tabla No Normalizada.
+
 * Se tiene una tabla única llamada PedidosNoNormalizados con la siguiente estructura:
 
 | PedidoID	| Cliente |	Teléfono	| Dirección	| Producto	| Cantidad |	Fecha |
@@ -16,7 +17,7 @@
 
 **Enunciado:**
 
-Utilizando las reglas de normalización vistas en clase, normalice la tabla PedidosNoNormalizados. Asegúrese de eliminar la redundancia y facilitar la actualización de la información del cliente. Presente las tablas resultantes después de aplicar la Primera Forma Normal (1FN), Segunda Forma Normal (2FN) y Tercera Forma Normal (3FN).
+Utilizando las reglas de normalización vistas en clase, normalice la tabla [PedidosNoNormalizados](https://github.com/davidriveraarbelaez/Bases_de_Datos_II/blob/main/Normalizaci%C3%B3n/PedidosNoNormalizados.sql). Asegúrese de eliminar la redundancia y facilitar la actualización de la información del cliente. Presente las tablas resultantes después de aplicar la Primera Forma Normal (1FN), Segunda Forma Normal (2FN) y Tercera Forma Normal (3FN).
 
 **Entregables:**
 * Crear un archivo PDF con las tablas resultantes y las explicaciones correspondientes.
