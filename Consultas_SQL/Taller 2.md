@@ -1,6 +1,4 @@
-# Taller corte 2
-
-## Consultas SQL con WHERE y ORDER BY**
+# Taller corte 2. Consultas SQL
 
 **Actividad:** Grupal (Mínimo 2 personas, máximo 3)  
  
