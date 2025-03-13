@@ -12,6 +12,7 @@
 - Explicación breve sobre WHERE y ORDER BY con ejemplos. 
 - Casos de uso comunes. 
 - Explicación breve sobre las funciones de agregación en SQL.
+
 **GROUP BY y HAVING**
 - Uso de GROUP BY para agrupar datos.
 - Uso de HAVING para filtrar resultados después de una agregación.
