@@ -58,10 +58,16 @@
 - Obtener la categoría con el mayor número de productos.
 - Mostrar la categoría con el menor precio promedio de productos.
 
+## Recursos
+
+- Base de datos de productos en formato CSV (Sugerida): [productos.csv][1].
+
+## Observaciones
+- Los estudiantes pueden utilizar cualquier base de datos de productos que tengan a disposición, siempre y cuando cumpla con los requisitos del taller.
 
 ## Entrega y Evaluación 
 
 Los estudiantes deben enviar un archivo con sus consultas SQL y los resultados obtenidos con los lineamientos socializados para los informes escritos. 
 
 - Se evaluará la correcta aplicación de WHERE y ORDER BY, así como la correcta interpretación de los datos. 
--  Se evaluará la correcta aplicación de funciones de agregación, GROUP BY y HAVING.
+- Se evaluará la correcta aplicación de funciones de agregación, GROUP BY y HAVING.
