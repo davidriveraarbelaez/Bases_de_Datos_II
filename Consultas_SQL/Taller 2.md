@@ -60,7 +60,7 @@
 
 ## Recursos
 
-- Base de datos de productos en formato CSV (Sugerida): [productos.csv][1].
+- Base de datos de productos en formato CSV (Sugerida): [productos.csv](https://github.com/davidriveraarbelaez/Bases_de_Datos_II/blob/main/Consultas_SQL/productos.csv).
 
 ## Observaciones
 - Los estudiantes pueden utilizar cualquier base de datos de productos que tengan a disposición, siempre y cuando cumpla con los requisitos del taller.
