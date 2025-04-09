@@ -1,0 +1,22 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head><title>Usuarios</title></head>
+<body>
+  <h1>Lista de Usuarios</h1>
+  <ul id="lista"></ul>
+
+  <script>
+    fetch('http://localhost:3000/usuarios')
+      .then(res => res.json())
+      .then(data => {
+        const lista = document.getElementById('lista');
+        data.forEach(u => {
+          const li = document.createElement('li');
+          li.textContent = `${u.nombre} - ${u.correo}`;
+          lista.appendChild(li);
+        });
+      });
+  </script>
+</body>
+</html>
