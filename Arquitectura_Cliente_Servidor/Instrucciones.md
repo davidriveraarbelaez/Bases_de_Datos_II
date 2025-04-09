@@ -1,4 +1,4 @@
-1. Crear el proyecto
+1. Copiar los archivos de la carpeta Arquitectura_Cliente_Servidor
 
 ```bash
 mkdir mvc
