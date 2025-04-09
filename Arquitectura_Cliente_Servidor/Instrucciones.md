@@ -1,4 +1,12 @@
-1. Script para la creación de la base de datos.
+1. Crear el proyecto
+
+```bash
+mkdir mvc
+cd mvc
+npm install
+```
+
+2. Script utilizado para la creación de la base de datos.
 
 ```sql
 CREATE DATABASE ejemplo;
