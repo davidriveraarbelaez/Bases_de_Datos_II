@@ -1,10 +1,9 @@
 1. Copiar los archivos de la carpeta Arquitectura_Cliente_Servidor
 
 ```bash
-mkdir mvc
-cd mvc
 npm install
 ```
+La anterior instrucción instalará las dependencias contenidas en el archivo **package.json**.
 
 2. Script utilizado para la creación de la base de datos.
 
