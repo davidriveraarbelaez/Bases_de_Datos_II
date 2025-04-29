@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo
+    container_name: mi-mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d
+    environment:
+      MONGO_INITDB_DATABASE: iot_data
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mongo-express:
+    image: mongo-express
+    container_name: mi-mongo-express
+    restart: always
+    ports:
+      - "8081:8081"
+    env_file:
+      - ./mongo-express/.env
+    entrypoint: /bin/sh -c "sleep 10 && tini -- /docker-entrypoint.sh"
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+  simulator:
+    build: ./simulator
+    container_name: iot-simulator
+    restart: always
+    depends_on:
+      mongo:
+        condition: service_healthy
+
+volumes:
+  mongo-data:
