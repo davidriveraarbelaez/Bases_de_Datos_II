@@ -1,12 +1,14 @@
 import './App.css'
+import { HolaMundo } from './components/HolaMundo'  
+import { Demo } from './components/Demo'
 
 function App() {
 
   return (
-    <>
-      <h1>Hola Mundo</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quisquam reiciendis quidem, dolorum perferendis consequatur porro ea saepe! Et est sed quod, maxime eligendi magni exercitationem fugiat ab deleniti laborum!</p>
-    </>
+  <>
+    <HolaMundo /> 
+    <Demo />    
+  </>  
   )
 }
 
